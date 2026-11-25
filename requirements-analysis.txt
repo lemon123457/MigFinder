@@ -1,0 +1,7 @@
+# Install requirements-local.txt and CUDA-enabled PyTorch first.
+scikit-image==0.25.2
+scikit-learn==1.7.2
+h5py>=3.10
+motmetrics==1.4.0
+notebook>=7,<8
+ipykernel>=6,<8

@@ -1,0 +1,5 @@
+checkpoint/*.pth filter=lfs diff=lfs merge=lfs -text
+
+# Offline GUI parts are ordinary Git binaries, not LFS pointers.
+GUI/MigFinder.exe -text -diff -filter
+GUI/data/** -text -diff -filter
